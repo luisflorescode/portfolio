@@ -15,7 +15,6 @@ class MyDocument extends Document {
             name="viewport"
             content="initial-scale=1.0, width=device-width"
           />
-          <title>Luis Flores | Frontend Developer</title>
           <link rel="shortcut icon" href="/static/favicon.ico" />
           <meta
             name="description"
