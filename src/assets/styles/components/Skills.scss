@@ -1,0 +1,14 @@
+@import '../main.scss';
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $backGrey-color;
+
+  &__content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}

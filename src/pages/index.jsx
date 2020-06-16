@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
 import About from '../components/About';
+import Skills from '../components/Skills';
 
 function Home({ data }) {
   return (
@@ -13,6 +14,7 @@ function Home({ data }) {
       <Header />
       <Hero {...data.hero} />
       <About {...data.about} />
+      <Skills skills={data.skills} />
     </>
   );
 }

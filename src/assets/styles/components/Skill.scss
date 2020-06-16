@@ -1,0 +1,26 @@
+@import '../main.scss';
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 175px;
+  margin: 10px;
+  padding: 10px;
+  background-color: $backWhite-color;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    width: 130px;
+    height: 130px;
+
+    &__img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
