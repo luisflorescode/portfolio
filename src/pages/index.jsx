@@ -2,8 +2,9 @@ import Head from 'next/head';
 import PropTypes from 'prop-types';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
+import About from '../components/About';
 
-function Home({ data = {} }) {
+function Home({ data }) {
   return (
     <>
       <Head>
@@ -11,6 +12,7 @@ function Home({ data = {} }) {
       </Head>
       <Header />
       <Hero {...data.hero} />
+      <About {...data.about} />
     </>
   );
 }

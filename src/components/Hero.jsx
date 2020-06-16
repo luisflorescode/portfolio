@@ -6,7 +6,7 @@ function Hero({ background }) {
     <section className="hero">
       <img className="hero__background" src={background} alt="Hero" />
       <div className="hero__content">
-        <strong className="hero__content__title">Frontend Developer</strong>
+        <h1 className="hero__content__title">Frontend Developer</h1>
       </div>
     </section>
   );
