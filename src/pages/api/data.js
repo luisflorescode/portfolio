@@ -23,11 +23,20 @@ export default (req, res) => {
       { name: 'Redux', logo: 'https://i.imgur.com/UW122uR.pngs' },
     ],
     projects: [
-      { name: 'Portafolio', screenshot: 'https://i.imgur.com/OBrxF3I.png' },
-      { name: 'We Love Photos', screenshot: 'https://i.imgur.com/nhqhRTn.jpg' },
+      {
+        name: 'Portafolio',
+        screenshot: 'https://i.imgur.com/OBrxF3I.png',
+        url: 'https://luisfloresdev.com',
+      },
+      {
+        name: 'We Love Photos',
+        screenshot: 'https://i.imgur.com/nhqhRTn.jpg',
+        url: 'https://welovephotos-94b99.firebaseapp.com',
+      },
       {
         name: "Rubik's Cube Game",
         screenshot: 'https://i.imgur.com/Idpizrp.png',
+        url: 'https://rubikscubegame-b2b18.web.app/',
       },
     ],
     communities: [
