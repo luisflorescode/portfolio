@@ -36,7 +36,7 @@ export default (req, res) => {
       {
         name: "Rubik's Cube Game",
         screenshot: 'https://i.imgur.com/Idpizrp.png',
-        url: 'https://rubikscubegame-b2b18.web.app/',
+        url: 'https://rubikscubegame-b2b18.web.app',
       },
     ],
     communities: [
@@ -44,16 +44,19 @@ export default (req, res) => {
         name: 'Nunca pares de...',
         rol: 'Organizador',
         photo: 'https://i.imgur.com/Idpizrp.png',
+        url: 'https://nuncaparesde.eventbrite.com',
       },
       {
         name: 'Platzi Developer Group',
         rol: 'Asistente',
         photo: 'https://i.imgur.com/aWyPf3G.jpg',
+        url: 'https://www.meetup.com/es/platzi-mexico-city',
       },
       {
         name: 'GDG Cloud MX',
         rol: 'Asistente',
         photo: 'https://i.imgur.com/eoQvyrP.png',
+        url: 'https://www.meetup.com/es/cloudmx',
       },
     ],
   });
