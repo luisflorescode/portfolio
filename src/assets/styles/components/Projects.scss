@@ -1,0 +1,11 @@
+@import '../main.scss';
+
+.projects {
+  background-color: $white-color;
+
+  &__content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
