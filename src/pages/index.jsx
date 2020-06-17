@@ -6,6 +6,7 @@ import About from '../components/About';
 import Skills from '../components/Skills';
 import Projects from '../components/Projects';
 import Communities from '../components/Communities';
+import Contact from '../components/Contact';
 
 function Home({ data }) {
   return (
@@ -19,6 +20,7 @@ function Home({ data }) {
       <Skills skills={data.skills} />
       <Projects projects={data.projects} />
       <Communities communities={data.communities} />
+      <Contact />
     </>
   );
 }
