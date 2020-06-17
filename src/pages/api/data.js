@@ -38,6 +38,11 @@ export default (req, res) => {
         url: 'https://welovephotos-94b99.firebaseapp.com',
       },
       {
+        name: 'Ride Me',
+        screenshot: 'https://i.imgur.com/XB385SD.png',
+        url: 'https://ridemeapp-a8380.web.app',
+      },
+      {
         name: "Rubik's Cube Game",
         screenshot: 'https://i.imgur.com/Idpizrp.png',
         url: 'https://rubikscubegame-b2b18.web.app',
