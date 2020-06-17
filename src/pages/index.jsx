@@ -5,6 +5,7 @@ import Hero from '../components/Hero';
 import About from '../components/About';
 import Skills from '../components/Skills';
 import Projects from '../components/Projects';
+import Communities from '../components/Communities';
 
 function Home({ data }) {
   return (
@@ -17,6 +18,7 @@ function Home({ data }) {
       <About {...data.about} />
       <Skills skills={data.skills} />
       <Projects projects={data.projects} />
+      <Communities communities={data.communities} />
     </>
   );
 }
