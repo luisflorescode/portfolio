@@ -14,7 +14,11 @@ export default (req, res) => {
         name: 'SASS',
         logo: 'https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg',
       },
-      { name: 'JavaScript', logo: 'https://i.imgur.com/BqJjbcu.jpg' },
+      {
+        name: 'JavaScript',
+        logo:
+          'https://res.cloudinary.com/luisfloresdev/image/upload/v1592448801/luisfloresdev.com/js_ze3bvv.webp',
+      },
       {
         name: 'React',
         logo:
