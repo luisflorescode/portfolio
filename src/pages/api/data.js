@@ -5,7 +5,8 @@ export default (req, res) => {
       background: 'https://i.imgur.com/fZHMjHe.jpg',
     },
     about: {
-      photo: 'https://i.imgur.com/BalVIvh.jpg',
+      photo:
+        'https://res.cloudinary.com/luisfloresdev/image/upload/v1592451444/luisfloresdev.com/profile_a0wlcc.webp',
     },
     skills: [
       {
