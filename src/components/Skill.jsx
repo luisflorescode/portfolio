@@ -7,7 +7,7 @@ function Skill({ logo, name }) {
       <div className="skill__logo">
         <img className="skill__logo__img" src={logo} alt={name} />
       </div>
-      <figcaption className="skill__title">{name}</figcaption>
+      <figcaption className="skill__name">{name}</figcaption>
     </figure>
   );
 }

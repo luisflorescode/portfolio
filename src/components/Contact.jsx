@@ -10,8 +10,9 @@ function Contact() {
       <div className="contact__email">
         <h3>e-mail</h3>
         <p>
-          Si tienes una idea y quieres crear algo increíble, envíame un e-mail
-          a:
+          ¿Tienes una idea y quieres crear algo increíble?
+          <br />
+          Envíame un e-mail a:
         </p>
         <a
           href="mailto:luisfloresdev@gmail.com"

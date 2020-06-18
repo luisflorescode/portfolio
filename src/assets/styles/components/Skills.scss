@@ -5,7 +5,80 @@
 
   &__content {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    width: 1400px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .skills {
+    &__content {
+      width: 1260px;
+    }
+  }
+}
+
+@media screen and (max-width: 1299px) {
+  .skills {
+    &__content {
+      width: 1120px;
+    }
+  }
+}
+
+@media screen and (max-width: 1159px) {
+  .skills {
+    &__content {
+      width: 980px;
+    }
+  }
+}
+
+@media screen and (max-width: 1019px) {
+  .skills {
+    &__content {
+      width: 840px;
+    }
+  }
+}
+
+@media screen and (max-width: 879px) {
+  .skills {
+    &__content {
+      width: 700px;
+    }
+  }
+}
+
+@media screen and (max-width: 739px) {
+  .skills {
+    &__content {
+      width: 560px;
+    }
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .skills {
+    &__content {
+      width: 420px;
+    }
+  }
+}
+
+@media screen and (max-width: 459px) {
+  .skills {
+    &__content {
+      width: 280px;
+    }
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .skills {
+    &__content {
+      width: 140px;
+    }
   }
 }

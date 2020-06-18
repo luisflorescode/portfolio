@@ -3,7 +3,7 @@
 .project {
   display: flex;
   flex-direction: column;
-  width: 320px;
+  width: 256px;
   margin: 10px;
   border-radius: 15px;
   overflow: hidden;
@@ -11,7 +11,7 @@
 
   &__screenshot {
     width: 100%;
-    height: 180px;
+    height: 144px;
 
     &__img {
       width: 100%;

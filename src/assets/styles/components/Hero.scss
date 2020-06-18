@@ -24,9 +24,65 @@
     &__title {
       padding: 30px;
       border-radius: 15px;
-      font-family: $title-font;
+      background-color: rgba(0, 0, 0, 0.9);
       color: $white-color;
-      background: rgba(0, 0, 0, 0.9);
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .hero {
+    &__content {
+      &__title h1 {
+        font-size: 72px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero {
+    height: 240px;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .hero {
+    &__content {
+      &__title {
+        padding: 20px;
+
+        h1 {
+          font-size: 36px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .hero {
+    &__content {
+      &__title {
+        h1 {
+          font-size: 32px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .hero {
+    &__content {
+      &__title {
+        padding: 15px;
+        border-radius: 10px;
+
+        h1 {
+          font-size: 28px;
+        }
+      }
     }
   }
 }

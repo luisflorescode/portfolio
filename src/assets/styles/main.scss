@@ -8,6 +8,7 @@
 
 body {
   font-family: $text-font;
+  font-size: 14px;
 }
 
 a {
@@ -36,7 +37,7 @@ h3 {
 }
 
 section {
-  padding: 25px;
+  padding: 25px 0;
 
   h1,
   h2,
@@ -45,5 +46,11 @@ section {
   h5,
   h6 {
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h2 {
+    font-size: 36px;
   }
 }

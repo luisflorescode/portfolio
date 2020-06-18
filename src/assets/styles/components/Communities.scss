@@ -5,7 +5,40 @@
 
   &__content {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    width: 1380px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1419px) {
+  .communities {
+    &__content {
+      width: 1104px;
+    }
+  }
+}
+
+@media screen and (max-width: 1143px) {
+  .communities {
+    &__content {
+      width: 828px;
+    }
+  }
+}
+
+@media screen and (max-width: 867px) {
+  .communities {
+    &__content {
+      width: 552px;
+    }
+  }
+}
+
+@media screen and (max-width: 591px) {
+  .communities {
+    &__content {
+      width: 276px;
+    }
   }
 }

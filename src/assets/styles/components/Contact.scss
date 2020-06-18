@@ -9,15 +9,18 @@
   &__email {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    width: 350px;
-    height: 150px;
-    margin: 0 50px;
+    width: 320px;
+    margin-right: 100px;
+
+    p {
+      text-align: center;
+    }
 
     &__link {
       display: flex;
       align-items: center;
+      margin: 10px;
       padding: 10px 15px;
       border-radius: 10px;
       background-color: $black-color;
@@ -34,21 +37,17 @@
   &__social {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    width: 350px;
-    height: 150px;
-    margin: 0 50px;
+    width: 320px;
 
     &__networks {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-evenly;
       width: 100%;
-      padding-bottom: 15px;
 
       @mixin item {
-        width: 70px;
-        height: 70px;
+        width: 50px;
+        height: 50px;
         fill: $white-color;
       }
 
@@ -79,10 +78,28 @@
           @include item;
 
           &:hover {
-            fill: #1876f2;
+            fill: #4267b2;
           }
         }
       }
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .contact {
+    &__email {
+      margin-right: 50px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .contact {
+    flex-direction: column;
+    align-items: center;
+    &__email {
+      margin: 0;
     }
   }
 }
