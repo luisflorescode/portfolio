@@ -8,31 +8,46 @@ export default (req, res) => {
       photo: 'https://i.imgur.com/BalVIvh.jpg',
     },
     skills: [
-      { name: 'HTML 5', logo: 'https://i.imgur.com/v3GvsuD.png' },
-      { name: 'CSS 3', logo: 'https://i.imgur.com/lo8jpSM.png' },
+      {
+        name: 'HTML 5',
+        logo:
+          'https://res.cloudinary.com/luisfloresdev/image/upload/v1592449604/luisfloresdev.com/html_q0aubh.webp',
+      },
+      {
+        name: 'CSS 3',
+        logo:
+          'https://res.cloudinary.com/luisfloresdev/image/upload/v1592449710/luisfloresdev.com/css_t1p5xt.webp',
+      },
       {
         name: 'SASS',
-        logo: 'https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg',
+        logo:
+          'https://res.cloudinary.com/luisfloresdev/image/upload/v1592449850/luisfloresdev.com/sass_nlr39d.webp',
       },
       {
         name: 'JavaScript',
         logo:
-          'https://res.cloudinary.com/luisfloresdev/image/upload/v1592449184/luisfloresdev.com/BqJjbcu_2_waxxb5.webp',
+          'https://res.cloudinary.com/luisfloresdev/image/upload/v1592449970/luisfloresdev.com/javascript_tyb6gy.webp',
       },
       {
         name: 'React',
         logo:
-          'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K',
+          'https://res.cloudinary.com/luisfloresdev/image/upload/v1592450225/luisfloresdev.com/react_vtkmam.webp',
       },
       {
         name: 'Angular',
-        logo: 'https://angular.io/assets/images/logos/angular/angular.svg',
+        logo:
+          'https://res.cloudinary.com/luisfloresdev/image/upload/v1592450332/luisfloresdev.com/angular_c4lwst.webp',
+      },
+      {
+        name: 'Redux',
+        logo:
+          'https://res.cloudinary.com/luisfloresdev/image/upload/v1592450434/luisfloresdev.com/redux_f2h1ip.webp',
       },
       {
         name: 'Git',
-        logo: 'https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png',
+        logo:
+          'https://res.cloudinary.com/luisfloresdev/image/upload/v1592450506/luisfloresdev.com/git_ycp2da.webp',
       },
-      { name: 'Redux', logo: 'https://i.imgur.com/UW122uR.png' },
     ],
     projects: [
       {
