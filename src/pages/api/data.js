@@ -17,7 +17,7 @@ export default (req, res) => {
       {
         name: 'JavaScript',
         logo:
-          'https://res.cloudinary.com/luisfloresdev/image/upload/v1592448801/luisfloresdev.com/js_ze3bvv.webp',
+          'https://res.cloudinary.com/luisfloresdev/image/upload/v1592449184/luisfloresdev.com/BqJjbcu_2_waxxb5.webp',
       },
       {
         name: 'React',
