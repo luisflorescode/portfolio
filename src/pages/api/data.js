@@ -2,7 +2,7 @@ export default (req, res) => {
   res.statusCode = 200;
   res.json({
     hero: {
-      background: 'https://i.imgur.com/fZHMjHe.jpg',
+      background: '/static/hero.jpg',
     },
     about: {
       photo:
