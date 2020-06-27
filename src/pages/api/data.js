@@ -10,43 +10,35 @@ export default (req, res) => {
     skills: [
       {
         name: 'HTML 5',
-        logo:
-          'https://res.cloudinary.com/luisfloresdev/image/upload/v1592449604/luisfloresdev.com/html_q0aubh.webp',
+        logo: '/static/html5.png',
       },
       {
         name: 'CSS 3',
-        logo:
-          'https://res.cloudinary.com/luisfloresdev/image/upload/v1592449710/luisfloresdev.com/css_t1p5xt.webp',
+        logo: '/static/css3.png',
       },
       {
         name: 'SASS',
-        logo:
-          'https://res.cloudinary.com/luisfloresdev/image/upload/v1592449850/luisfloresdev.com/sass_nlr39d.webp',
+        logo: '/static/sass.png',
       },
       {
         name: 'JavaScript',
-        logo:
-          'https://res.cloudinary.com/luisfloresdev/image/upload/v1592449970/luisfloresdev.com/javascript_tyb6gy.webp',
+        logo: '/static/javascript.png',
       },
       {
         name: 'React',
-        logo:
-          'https://res.cloudinary.com/luisfloresdev/image/upload/v1592450225/luisfloresdev.com/react_vtkmam.webp',
+        logo: '/static/react.png',
       },
       {
         name: 'Angular',
-        logo:
-          'https://res.cloudinary.com/luisfloresdev/image/upload/v1592450332/luisfloresdev.com/angular_c4lwst.webp',
+        logo: '/static/angular.png',
       },
       {
         name: 'Redux',
-        logo:
-          'https://res.cloudinary.com/luisfloresdev/image/upload/v1592450434/luisfloresdev.com/redux_f2h1ip.webp',
+        logo: '/static/redux.png',
       },
       {
         name: 'Git',
-        logo:
-          'https://res.cloudinary.com/luisfloresdev/image/upload/v1592450506/luisfloresdev.com/git_ycp2da.webp',
+        logo: '/static/git.png',
       },
     ],
     projects: [
@@ -62,12 +54,12 @@ export default (req, res) => {
       },
       {
         name: 'Ride Me',
-        screenshot: 'https://i.imgur.com/XB385SD.png',
+        screenshot: '/static/ride-me.jpg',
         url: 'https://ridemeapp-a8380.web.app',
       },
       {
         name: "Rubik's Cube Game",
-        screenshot: 'https://i.imgur.com/Idpizrp.png',
+        screenshot: '/static/rubik-cube.jpg',
         url: 'https://rubikscubegame-b2b18.web.app',
       },
     ],
