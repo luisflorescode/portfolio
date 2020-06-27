@@ -79,7 +79,7 @@ export default (req, res) => {
       {
         name: 'GDG Cloud MX',
         rol: 'Asistente',
-        photo: '/static/gdg-cloud-mx,jpg',
+        photo: '/static/gdg-cloud-mx.jpg',
         url: 'https://www.meetup.com/es/cloudmx',
       },
     ],
