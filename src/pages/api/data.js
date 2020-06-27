@@ -52,7 +52,7 @@ export default (req, res) => {
     projects: [
       {
         name: 'Portafolio',
-        screenshot: 'https://i.imgur.com/OBrxF3I.png',
+        screenshot: '/static/portfolio.jpg',
         url: 'https://luisfloresdev.com',
       },
       {
