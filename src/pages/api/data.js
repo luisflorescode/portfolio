@@ -67,19 +67,19 @@ export default (req, res) => {
       {
         name: 'Nunca pares de...',
         rol: 'Organizador',
-        photo: 'https://i.imgur.com/sjw7Mxz.jpg',
+        photo: '/static/nunca-pares-de.jpg',
         url: 'https://nuncaparesde.eventbrite.com',
       },
       {
         name: 'Platzi Developer Group',
         rol: 'Asistente',
-        photo: 'https://i.imgur.com/aWyPf3G.jpg',
+        photo: '/static/platzi-developer-group.jpg',
         url: 'https://www.meetup.com/es/platzi-mexico-city',
       },
       {
         name: 'GDG Cloud MX',
         rol: 'Asistente',
-        photo: 'https://i.imgur.com/eoQvyrP.png',
+        photo: '/static/gdg-cloud-mx,jpg',
         url: 'https://www.meetup.com/es/cloudmx',
       },
     ],
