@@ -11,7 +11,7 @@ function About({ photo }) {
         </figure>
         <article className="about__description">
           <h3 className="about__description__title">
-            {/* <span className="about__description__title__logo">&lt;&gt;</span>{' '} */}
+            <span className="about__description__title__logo">&lt;&gt;</span>{' '}
             Luis Flores Álvarez
           </h3>
           <section className="about__description__text">
