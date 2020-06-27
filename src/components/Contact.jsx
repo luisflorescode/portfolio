@@ -30,28 +30,32 @@ function Contact() {
             target="_blank"
             rel="noreferrer"
           >
-            <GitHub className="contact__social__networks__item--github" />
+            <GitHub className="contact__social__networks__item" />
+            <small className="contact__social__networks__item__text">GitHub</small>
           </a>
           <a
             href="https://www.linkedin.com/in/luisfloresdev"
             target="_blank"
             rel="noreferrer"
           >
-            <LinkedIn className="contact__social__networks__item--linkedin" />
+            <LinkedIn className="contact__social__networks__item" />
+            <small className="contact__social__networks__item__text">LinkedIn</small>
           </a>
           <a
             href="https://twitter.com/luisfloresdev"
             target="_blank"
             rel="noreferrer"
           >
-            <Twitter className="contact__social__networks__item--twitter" />
+            <Twitter className="contact__social__networks__item" />
+            <small className="contact__social__networks__item__text">Twitter</small>
           </a>
           <a
             href="https://www.facebook.com/luisfloresdev"
             target="_blank"
             rel="noreferrer"
           >
-            <Facebook className="contact__social__networks__item--facebook" />
+            <Facebook className="contact__social__networks__item" />
+            <small className="contact__social__networks__item__text">Facebook</small>
           </a>
         </div>
       </div>

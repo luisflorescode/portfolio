@@ -5,8 +5,7 @@ export default (req, res) => {
       background: '/static/hero.jpg',
     },
     about: {
-      photo:
-        'https://res.cloudinary.com/luisfloresdev/image/upload/v1592451444/luisfloresdev.com/profile_a0wlcc.webp',
+      photo: '/static/about.jpg',
     },
     skills: [
       {
