@@ -57,7 +57,7 @@ export default (req, res) => {
       },
       {
         name: 'We Love Photos',
-        screenshot: 'https://i.imgur.com/nhqhRTn.jpg',
+        screenshot: '/static/we-love-photos.jpg',
         url: 'https://welovephotos-94b99.firebaseapp.com',
       },
       {
