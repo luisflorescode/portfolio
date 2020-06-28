@@ -31,3 +31,16 @@
     background-color: $black-color;
   }
 }
+
+@media screen and (max-width: 591px) {
+  .community {
+    width: 90vw;
+    max-width: 512px;
+    margin: 10px 0;
+
+    &__photo {
+      height: calc(90vw * 0.5625);
+      max-height: 288px;
+    }
+  }
+}

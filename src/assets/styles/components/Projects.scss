@@ -38,7 +38,8 @@
 @media screen and (max-width: 591px) {
   .projects {
     &__content {
-      width: 276px;
+      width: 90vw;
+      max-width: 512px;
     }
   }
 }
