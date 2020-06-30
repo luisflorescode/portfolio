@@ -21,6 +21,10 @@ export default (req, res) => {
         logo: '/static/sass.png',
       },
       {
+        name: 'Git',
+        logo: '/static/git.png',
+      },
+      {
         name: 'JavaScript',
         logo: '/static/javascript.png',
       },
@@ -33,12 +37,20 @@ export default (req, res) => {
         logo: '/static/angular.png',
       },
       {
+        name: 'Svelte',
+        logo: '/static/svelte.png',
+      },
+      {
+        name: 'Next.js',
+        logo: '/static/next.png',
+      },
+      {
         name: 'Redux',
         logo: '/static/redux.png',
       },
       {
-        name: 'Git',
-        logo: '/static/git.png',
+        name: 'Webpack',
+        logo: '/static/webpack.png',
       },
     ],
     projects: [
