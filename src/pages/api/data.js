@@ -37,10 +37,6 @@ export default (req, res) => {
         logo: '/static/angular.png',
       },
       {
-        name: 'Svelte',
-        logo: '/static/svelte.png',
-      },
-      {
         name: 'Next.js',
         logo: '/static/next.png',
       },
