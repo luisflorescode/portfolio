@@ -70,6 +70,11 @@ export default (req, res) => {
         screenshot: '/static/rubik-cube.jpg',
         url: 'https://rubikscubegame-b2b18.web.app',
       },
+      {
+        name: 'HALAH Laboratories',
+        screenshot: '/static/halah-laboratories.jpg',
+        url: 'https://www.halahlaboratories.com',
+      },
     ],
     communities: [
       {
@@ -89,6 +94,18 @@ export default (req, res) => {
         rol: 'Asistente',
         photo: '/static/gdg-cloud-mx.jpg',
         url: 'https://www.meetup.com/es/cloudmx',
+      },
+      {
+        name: 'Thinking Couch',
+        rol: 'Asistente',
+        photo: '/static/thinking-couch.jpg',
+        url: 'https://www.facebook.com/thinkingcouch',
+      },
+      {
+        name: 'CDMX Dribbble Meetup',
+        rol: 'Asistente',
+        photo: '/static/dribbble.jpg',
+        url: 'https://www.meetup.com/es/DribbbleMX-Meetup',
       },
     ],
   });
