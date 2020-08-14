@@ -8,7 +8,7 @@ function Projects({ projects }) {
       <h2>Proyectos</h2>
       <div className="projects__content">
         {projects.map((project) => (
-          <Project key={project.name} {...project} />
+          <Project key={project._id} {...project} />
         ))}
       </div>
     </section>

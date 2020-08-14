@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import '../assets/styles/components/About.scss';
 
-function About({ photo }) {
+function About({ photo, description }) {
   return (
     <section className="about">
       <h2>Acerca de mí</h2>
@@ -15,18 +15,7 @@ function About({ photo }) {
             Luis Flores Álvarez
           </h3>
           <section className="about__description__text">
-            <p>
-              La curiosidad por la tecnología me ha llevado a la programación,
-              la cual pienso es una disciplina fundamental para comprender el
-              mundo actual.
-            </p>
-            <br />
-            <p>
-              Mi interés por realizar desarrollo frontend surge de la
-              fascinación por la parte visual e interactiva de contenidos
-              digitales que facilitan al usuario interactuar con la tecnología y
-              lograr sus propósitos con ella.
-            </p>
+            <p>{description}</p>
           </section>
         </article>
       </div>
@@ -36,6 +25,7 @@ function About({ photo }) {
 
 About.propTypes = {
   photo: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
 };
 
 export default About;

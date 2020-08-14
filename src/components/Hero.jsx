@@ -1,13 +1,13 @@
 import PropTypes from 'prop-types';
 import '../assets/styles/components/Hero.scss';
 
-function Hero({ background }) {
+function Hero({ background, text }) {
   return (
     <section className="hero">
       <img className="hero__background" src={background} alt="Hero" />
       <div className="hero__content">
         <div className="hero__content__title">
-          <h1>Frontend Developer</h1>
+          <h1>{text}</h1>
         </div>
       </div>
     </section>
@@ -16,6 +16,7 @@ function Hero({ background }) {
 
 Hero.propTypes = {
   background: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
 };
 
 export default Hero;

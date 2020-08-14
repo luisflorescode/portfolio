@@ -8,7 +8,7 @@ function Communities({ communities }) {
       <h2>Comunidades</h2>
       <div className="communities__content">
         {communities.map((community) => (
-          <Community key={community.name} {...community} />
+          <Community key={community._id} {...community} />
         ))}
       </div>
     </section>
