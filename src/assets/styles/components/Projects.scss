@@ -1,45 +1,5 @@
-@import '../main.scss';
+@import "../main.scss";
 
 .projects {
   background-color: $white-color;
-
-  &__content {
-    display: flex;
-    flex-wrap: wrap;
-    width: 1380px;
-    margin: 0 auto;
-  }
-}
-
-@media screen and (max-width: 1419px) {
-  .projects {
-    &__content {
-      width: 1104px;
-    }
-  }
-}
-
-@media screen and (max-width: 1143px) {
-  .projects {
-    &__content {
-      width: 828px;
-    }
-  }
-}
-
-@media screen and (max-width: 867px) {
-  .projects {
-    &__content {
-      width: 552px;
-    }
-  }
-}
-
-@media screen and (max-width: 591px) {
-  .projects {
-    &__content {
-      width: 90vw;
-      max-width: 512px;
-    }
-  }
 }

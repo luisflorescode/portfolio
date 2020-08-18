@@ -1,4 +1,4 @@
-@import '../main.scss';
+@import "../main.scss";
 
 .hero {
   position: relative;
@@ -43,25 +43,6 @@
 @media screen and (max-width: 767px) {
   .hero {
     height: 240px;
-  }
-}
-
-@media screen and (max-width: 512px) {
-  .hero {
-    &__content {
-      &__title {
-        padding: 20px;
-
-        h1 {
-          font-size: 36px;
-        }
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 424px) {
-  .hero {
     &__content {
       &__title {
         h1 {

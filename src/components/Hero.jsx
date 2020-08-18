@@ -3,7 +3,7 @@ import '../assets/styles/components/Hero.scss';
 
 function Hero({ background, text }) {
   return (
-    <section className="hero">
+    <section id="hero" className="hero">
       <img className="hero__background" src={background} alt="Hero" />
       <div className="hero__content">
         <div className="hero__content__title">

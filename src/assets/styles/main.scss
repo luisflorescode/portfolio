@@ -1,4 +1,4 @@
-@import './vars.scss';
+@import "./vars.scss";
 
 * {
   margin: 0;
@@ -12,6 +12,10 @@ body {
 
 a {
   text-decoration: none;
+}
+
+figure {
+  margin: 0;
 }
 
 h1,
@@ -36,7 +40,7 @@ h3 {
 }
 
 section {
-  padding: 25px 0;
+  padding: 56px 0;
 
   h1,
   h2,

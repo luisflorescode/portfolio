@@ -4,12 +4,14 @@ import Skill from './Skill';
 
 function Skills({ skills }) {
   return (
-    <section className="skills">
+    <section id="skills" className="skills">
       <h2>Skills</h2>
-      <div className="skills__content">
-        {skills.map((skill) => (
-          <Skill key={skill.name} {...skill} />
-        ))}
+      <div className="container">
+        <div className="row">
+          {skills.map((skill) => (
+            <Skill key={skill._id} {...skill} />
+          ))}
+        </div>
       </div>
     </section>
   );

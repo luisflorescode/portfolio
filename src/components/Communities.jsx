@@ -4,12 +4,14 @@ import Community from './Community';
 
 function Communities({ communities }) {
   return (
-    <section className="communities">
+    <section id="communities" className="communities">
       <h2>Comunidades</h2>
-      <div className="communities__content">
-        {communities.map((community) => (
-          <Community key={community._id} {...community} />
-        ))}
+      <div className="container">
+        <div className="row">
+          {communities.map((community) => (
+            <Community key={community._id} {...community} />
+          ))}
+        </div>
       </div>
     </section>
   );
