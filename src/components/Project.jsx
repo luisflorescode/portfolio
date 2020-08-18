@@ -3,7 +3,7 @@ import '../assets/styles/components/Project.scss';
 
 function Project({ name, screenshots, url }) {
   return (
-    <div className="col-12 col-md-6 col-lg-4">
+    <div className="col-12 col-md-6 col-lg-4 mt-3 mb-3">
       <a className="project" href={url} target="_blank" rel="noreferrer">
         <figure className="project__screenshot">
           <img

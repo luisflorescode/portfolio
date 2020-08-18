@@ -39,9 +39,9 @@ function Contact() {
                   >
                     <GitHub className="contact__social__networks__item" />
                     <br />
-                    <span className="contact__social__networks__name">
+                    <small className="contact__social__networks__name">
                       GitHub
-                    </span>
+                    </small>
                   </a>
                 </div>
                 <div className="col-3">
@@ -53,9 +53,9 @@ function Contact() {
                   >
                     <LinkedIn className="contact__social__networks__item" />
                     <br />
-                    <span className="contact__social__networks__name">
+                    <small className="contact__social__networks__name">
                       LinkedIn
-                    </span>
+                    </small>
                   </a>
                 </div>
                 <div className="col-3">
@@ -67,9 +67,9 @@ function Contact() {
                   >
                     <Twitter className="contact__social__networks__item" />
                     <br />
-                    <span className="contact__social__networks__name">
+                    <small className="contact__social__networks__name">
                       Twitter
-                    </span>
+                    </small>
                   </a>
                 </div>
                 <div className="col-3">
@@ -81,9 +81,9 @@ function Contact() {
                   >
                     <Facebook className="contact__social__networks__item" />
                     <br />
-                    <span className="contact__social__networks__name">
+                    <small className="contact__social__networks__name">
                       Facebook
-                    </span>
+                    </small>
                   </a>
                 </div>
               </div>

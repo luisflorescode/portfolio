@@ -3,7 +3,7 @@ import '../assets/styles/components/Community.scss';
 
 function Community({ name, rol, photo, url }) {
   return (
-    <div className="col-12 col-md-6 col-lg-4">
+    <div className="col-12 col-md-6 col-lg-4 mt-3 mb-3">
       <a className="community" href={url} target="_blank" rel="noreferrer">
         <figure className="community__photo">
           <img className="community__photo__img" src={photo} alt={name} />
