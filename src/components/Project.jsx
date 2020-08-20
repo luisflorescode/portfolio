@@ -1,10 +1,23 @@
 import PropTypes from 'prop-types';
+import { useContext } from 'react';
+import ModalContext from '../context/ModalContext';
 import '../assets/styles/components/Project.scss';
 
-function Project({ name, screenshots, url }) {
+function Project({ _id, name, screenshots }) {
+  const { setModal } = useContext(ModalContext);
+
+  const openProjectDetail = () => {
+    setModal({ isOpen: true, projectId: _id });
+  };
+
   return (
     <div className="col-12 col-md-6 col-lg-4 mt-3 mb-3">
-      <a className="project" href={url} target="_blank" rel="noreferrer">
+      <div
+        onClick={openProjectDetail}
+        role="button"
+        tabIndex="0"
+        className="project"
+      >
         <figure className="project__screenshot">
           <img
             className="project__screenshot__img"
@@ -15,15 +28,15 @@ function Project({ name, screenshots, url }) {
         <div className="project__name">
           <strong>{name}</strong>
         </div>
-      </a>
+      </div>
     </div>
   );
 }
 
 Project.propTypes = {
+  _id: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   screenshots: PropTypes.array.isRequired,
-  url: PropTypes.string.isRequired,
 };
 
 export default Project;
