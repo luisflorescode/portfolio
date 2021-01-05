@@ -47,7 +47,7 @@ function Contact() {
                 <div className="col-3">
                   <a
                     className="contact__social__networks"
-                    href="https://www.linkedin.com/in/luisfloresdev"
+                    href="https://www.linkedin.com/in/luisflorescode"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -61,7 +61,7 @@ function Contact() {
                 <div className="col-3">
                   <a
                     className="contact__social__networks"
-                    href="https://twitter.com/luisfloresdev"
+                    href="https://twitter.com/luisflorescode"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -75,7 +75,7 @@ function Contact() {
                 <div className="col-3">
                   <a
                     className="contact__social__networks"
-                    href="https://www.facebook.com/luisfloresdev"
+                    href="https://www.facebook.com/luisflorescode"
                     target="_blank"
                     rel="noreferrer"
                   >
