@@ -17,7 +17,7 @@ function Contact() {
               Envíame un e-mail a:
             </p>
             <a
-              href="mailto:luisfloresdev@gmail.com"
+              href="mailto:luisflorescode@gmail.com"
               target="_blank"
               rel="noreferrer"
             >
