@@ -22,7 +22,7 @@ function Contact() {
               rel="noreferrer"
             >
               <div className="contact__email__link">
-                luisfloresdev@gmail.com
+                luisflorescode@gmail.com
               </div>
             </a>
           </div>
